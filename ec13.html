@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>positive books</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="ec13.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="ec3.html">Chapter 1</a>
+    <a href="ec03.html">Chapter 2</a>
+    <a href="ec13.html">Chapter 3</a>
+    <a href="ec23.html">Chapter 4</a>
+
+     </aside>
+</div>
+<h1 class="title">positive books</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 3</h1>
+<p class="english">
+### The Rational Optimist – Matt Ridley
+</p>
+
+<p class="persian">
+### خوش‌بین منطقی – مت ریدلی
+</p>
+
+<p class="english">
+For more than two hundred years the pessimists have been winning the public debate. They tell us that things are getting worse. But in fact, life is getting better. Income, food availability and lifespan are rising; disease, violence and child mortality are falling. These trends are happening all around the world. Africa is slowly coming out of poverty, just as Asia did before. The internet, mobile phones and worldwide trade are making the lives of millions of people much better.
+</p>
+
+<p class="persian">
+برای بیش از دویست سال، بدبین‌ها در بحث‌های عمومی پیروز بوده‌اند. آن‌ها به ما می‌گویند که اوضاع در حال بدتر شدن است. اما در واقع، زندگی در حال بهتر شدن است. درآمد، دسترسی به غذا و طول عمر در حال افزایش است؛ در حالی که بیماری، خشونت و مرگ‌ومیر کودکان در حال کاهش است. این روندها در سراسر جهان اتفاق می‌افتند. آفریقا به‌آرامی در حال خارج شدن از فقر است، همان‌طور که آسیا قبلاً این مسیر را طی کرد. اینترنت، تلفن‌های همراه و تجارت جهانی زندگی میلیون‌ها نفر را بسیار بهتر کرده‌اند.
+</p>
+
+<p class="english">
+Best-selling author Matt Ridley doesn't only explain how things are getting better; he gives us reasons why as well. He shows us how human culture evolves in a positive direction thanks to the exchange of ideas and specialisation. This bold book looks at the entirety of human history – from the Stone Age to the 21st century – and changes the notion that it's all going downhill. The glass really is half-full.
+</p>
+
+<p class="persian">
+نویسنده پرفروش، مت ریدلی، فقط توضیح نمی‌دهد که اوضاع چگونه بهتر می‌شود؛ بلکه دلایل آن را نیز بیان می‌کند. او نشان می‌دهد که فرهنگ انسانی به لطف تبادل ایده‌ها و تخصص‌گرایی، در جهت مثبتی تکامل پیدا می‌کند. این کتاب جسورانه به تمام تاریخ بشر، از عصر حجر تا قرن بیست‌ویکم، نگاه می‌کند و این تصور را تغییر می‌دهد که همه‌چیز در حال بدتر شدن است. واقعاً می‌توان گفت که «لیوان نیمه‌پر است».
+</p>
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

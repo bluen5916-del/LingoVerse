@@ -1,0 +1,131 @@
+<html>
+    <head>
+      <div></div>
+        <title>Frank's last case </title>
+        <link rel="stylesheet" href="dracula.css">
+
+        <meta charset="utf-8">
+
+
+    </head>
+
+    <body>
+      <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+  <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+    <h3>Chapters</h3>
+
+<a href="pad.html">Chapter 1</a>
+<a href="pad2.html">Chapter 2</a>
+ </aside>
+</div>
+     
+<h1 class="title">Frank's last case</h1>
+
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1 </h1>
+<p class="english">Sergeant Frank Spike sat behind his desk and looked out of the window. Outside, cars moved slowly in the cold, grey rain.</p>
+
+<p class="persian">گروهبان فرانک اسپایک پشت میز خود نشسته بود و از پنجره بیرون را نگاه می‌کرد. بیرون، ماشین‌ها در باران سرد و خاکستری به‌آرامی حرکت می‌کردند.</p>
+
+
+<p class="english">He looked down at the grey hairs on his arms. His round stomach pushed against the desk.</p>
+
+<p class="persian">او به موهای خاکستری روی دست‌هایش نگاه کرد. شکم گرد او به میز فشار می‌آورد.</p>
+
+
+<p class="english">This was his final month before he retired from the police. For Frank, his last day couldn't come too soon.</p>
+
+<p class="persian">این آخرین ماه کاری او قبل از بازنشستگی از پلیس بود. برای فرانک، روز آخر کاری‌اش نمی‌توانست زودتر از این فرا برسد.</p>
+
+
+<p class="english">Frank felt angry as he thought about the money he would get when he retired.</p>
+
+<p class="persian">فرانک وقتی به پولی که بعد از بازنشستگی دریافت می‌کرد فکر کرد، عصبانی شد.</p>
+
+
+<p class="english">It wasn't enough money to pay for a short holiday on the cold and rainy east coast of England where he lived.</p>
+
+<p class="persian">آن پول حتی برای یک تعطیلات کوتاه در ساحل شرقی سرد و بارانی انگلستان، جایی که زندگی می‌کرد، کافی نبود.</p>
+
+
+<p class="english">It certainly wouldn't pay for his dream holiday – a luxury, round-the-world cruise.</p>
+
+<p class="persian">قطعاً برای تعطیلات رؤیایی او؛ یعنی یک سفر دریایی لوکس دور دنیا، کافی نبود.</p>
+
+
+<p class="english">Just then, Inspector Spencer came to Frank's desk.</p>
+
+<p class="persian">در همان لحظه، بازرس اسپنسر به سمت میز فرانک آمد.</p>
+
+
+<p class="english">Spencer had perfect white teeth and he was always smiling.</p>
+
+<p class="persian">اسپنسر دندان‌های سفید و بی‌نقصی داشت و همیشه لبخند می‌زد.</p>
+
+
+<p class="english">Three years earlier, Spencer had been promoted. Now he was an inspector at the young age of forty.</p>
+
+<p class="persian">سه سال قبل، اسپنسر ترفیع گرفته بود. حالا در سن جوانِ چهل‌سالگی یک بازرس بود.</p>
+
+
+<p class="english">Frank wasn't so lucky. He had worked for the police for forty years and he was still a sergeant.</p>
+
+<p class="persian">فرانک آن‌قدر خوش‌شانس نبود. او چهل سال برای پلیس کار کرده بود و هنوز یک گروهبان بود.</p>
+
+
+<p class="english">Frank knew he wasn't as handsome or as friendly as Inspector Spencer. But Frank was a better policeman.</p>
+
+<p class="persian">فرانک می‌دانست که به اندازه بازرس اسپنسر خوش‌چهره یا خوش‌برخورد نیست. اما فرانک پلیس بهتری بود.</p>
+
+
+<p class="english">Frank had "a nose for crime" and Spencer didn't.</p>
+
+<p class="persian">فرانک «استعداد خاصی برای پیدا کردن جرم» داشت، اما اسپنسر نداشت.</p>
+
+
+<p class="english">That "nose" meant Frank could think like a criminal and solve the most difficult crimes.</p>
+
+<p class="persian">این «بینی مخصوص» یعنی فرانک می‌توانست مثل یک مجرم فکر کند و سخت‌ترین پرونده‌ها را حل کند.</p>
+
+
+</div>
+    </section>
+
+
+
+ </body>
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+</html>

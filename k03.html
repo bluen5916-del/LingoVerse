@@ -1,0 +1,142 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>나와 내 친구들</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="ka3.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="k02.html">Chapter 1</a>
+    <a href="k03.html">Chapter 2</a>
+
+     </aside>
+</div>
+<h1 class="title">나와 내 친구들</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 2</h1>
+<p class="korean">
+오늘은 월요일이야.
+나는 아침에 학교에 갔어.
+
+<p class="persian">
+امروز دوشنبه است.
+من صبح به مدرسه رفتم.
+</p>
+
+<p class="korean">
+교실에 들어갔어.
+친구들은 이미 와 있었어.
+
+<p class="persian">
+وارد کلاس شدم.
+دوستانم از قبل آمده بودند.
+</p>
+
+<p class="korean">
+나는 자리에 앉았어.
+그리고 책을 꺼냈어.
+
+<p class="persian">
+روی صندلی‌ام نشستم.
+و کتابم را بیرون آوردم.
+</p>
+
+<p class="korean">
+첫 번째 수업은 한국어였어.
+선생님이 칠판에 글을 썼어.
+
+<p class="persian">
+اولین کلاس، کره‌ای بود.
+معلم روی تخته چیزی نوشت.
+</p>
+
+<p class="korean">
+나는 선생님의 말을 들었어.
+친구들도 열심히 공부했어.
+
+<p class="persian">
+من به حرف‌های معلم گوش دادم.
+دوستانم هم با جدیت درس خواندند.
+</p>
+
+<p class="korean">
+쉬는 시간에 우리는 밖에 나갔어.
+같이 이야기를 하고 웃었어.
+
+<p class="persian">
+در زمان استراحت، با هم به بیرون رفتیم.
+با هم صحبت کردیم و خندیدیم.
+</p>
+
+<p class="korean">
+점심시간에는 친구들과 같이 밥을 먹었어.
+오늘 점심은 정말 맛있었어.
+
+<p class="persian">
+در زمان ناهار، با دوستانم با هم غذا خوردم.
+ناهار امروز واقعاً خوشمزه بود.
+</p>
+
+<p class="korean">
+수업이 끝났어.
+나는 친구들에게 인사하고 집에 갔어.
+
+<p class="persian">
+کلاس‌ها تمام شدند.
+با دوستانم خداحافظی کردم و به خانه رفتم.
+</p>
+
+<p class="korean">
+오늘도 학교에서 즐거운 하루를 보냈어.
+</p>
+
+<p class="persian">
+امروز هم یک روز خوب و لذت‌بخش را در مدرسه گذراندم.
+</p>
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

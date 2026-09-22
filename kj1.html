@@ -1,0 +1,235 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>지아의 작은 하루들</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+               <div class="app">
+        <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="j1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="kj1.html">Chapter 1</a>
+    <a href="kj2.html">Chapter 2</a>
+    <a href="kj3.html">Chapter 3</a>
+
+     </aside>
+</div>
+<h1 class="title">지아의 작은 하루들</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+지아는 학교에서 집에 와요.
+</p>
+
+<p class="persian">
+جیا از مدرسه به خانه می‌آید.
+</p>
+
+
+<p class="korean">
+집 문을 열어요.
+</p>
+
+<p class="persian">
+درِ خانه را باز می‌کند.
+</p>
+
+
+<p class="korean">
+집이 아주 조용해요.
+</p>
+
+<p class="persian">
+خانه خیلی ساکت است.
+</p>
+
+
+<p class="korean">
+지아가 크게 말해요.
+</p>
+
+<p class="persian">
+جیا با صدای بلند حرف می‌زند.
+</p>
+
+
+<p class="korean">
+하지만 대답이 없어요.
+</p>
+
+<p class="persian">
+اما هیچ جوابی وجود ندارد.
+</p>
+
+
+<p class="korean">
+아무도 없어요.
+</p>
+
+<p class="persian">
+هیچ‌کس نیست.
+</p>
+
+
+<p class="korean">
+지아는 거실로 가요.
+</p>
+
+<p class="persian">
+جیا به اتاق نشیمن می‌رود.
+</p>
+
+
+<p class="korean">
+테이블 위에 예쁜 컵이 하나 있어요.
+</p>
+
+<p class="persian">
+روی میز یک فنجان زیبا وجود دارد.
+</p>
+
+
+<p class="korean">
+컵 안에 차가 있어요.
+</p>
+
+<p class="persian">
+داخل فنجان چای است.
+</p>
+
+
+<p class="korean">
+지아는 컵을 만져요.
+</p>
+
+<p class="persian">
+جیا فنجان را لمس می‌کند.
+</p>
+
+
+<p class="korean">
+컵이 아주 따뜻해요.
+</p>
+
+<p class="persian">
+فنجان خیلی گرم است.
+</p>
+
+
+<p class="korean">
+지아는 방과 부엌을 봐요.
+</p>
+
+<p class="persian">
+جیا اتاق و آشپزخانه را نگاه می‌کند.
+</p>
+
+
+<p class="korean">
+방에도 부엌에도 아무도 없어요.
+</p>
+
+<p class="persian">
+در اتاق و آشپزخانه هم هیچ‌کس نیست.
+</p>
+
+
+<p class="korean">
+다시 거실로 와요.
+</p>
+
+<p class="persian">
+دوباره به اتاق نشیمن برمی‌گردد.
+</p>
+
+
+<p class="korean">
+컵 옆에 할머니의 사진이 있어요.
+</p>
+
+<p class="persian">
+کنار فنجان، عکس مادربزرگش قرار دارد.
+</p>
+
+
+<p class="korean">
+갑자기 현관문이 열려요.
+</p>
+
+<p class="persian">
+ناگهان درِ ورودی باز می‌شود.
+</p>
+
+
+<p class="korean">
+할머니가 웃으면서 들어와요.
+</p>
+
+<p class="persian">
+مادربزرگ با لبخند وارد می‌شود.
+</p>
+
+
+<p class="korean">
+지아는 할머니를 꼭 안아요.
+</p>
+
+<p class="persian">
+جیا محکم مادربزرگش را بغل می‌کند.
+</p>
+
+
+<p class="korean">
+이제 지아는 안심해요.
+</p>
+
+<p class="persian">
+حالا جیا خیالش راحت می‌شود.
+</p>
+
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

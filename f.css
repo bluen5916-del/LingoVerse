@@ -1,0 +1,266 @@
+@font-face{
+    font-family: b Yekan;
+    src: url(C:\USERS\LENOVO\APPDATA\MICROSOFT\WINDOWS\FONTS\YEKAN.TTF);
+
+}
+
+.div1{
+    box-shadow: 0px,0px,10px,black;
+    text-shadow: bisque;
+}
+/* CSS */
+.btn-lan{
+
+    display:flex;
+    justify-content:center;
+    gap:150px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.btn-korean {
+    position:relative;
+    width:250px;
+    height:200px;
+    font-size:500px;
+    overflow:hidden;
+    color:white;
+    font-weight:bold;
+    border-width:2px;
+    background:rgba(0,0,20,0.6);
+    backdrop-filter:blur(10px);
+    
+}
+.btn-korean::before{
+
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:url("https://flagcdn.com/w1280/kr.png");
+    background-size:cover;
+    background-position:center;
+    opacity:0.18;
+    z-index:0;
+}
+
+.btn-korean{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-korean:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(0, 255, 170, 0.7);
+    transition:0.3s;
+}
+.btn-spanish{
+
+    position:relative;
+
+    width:250px;
+    height:200px;
+
+    font-size:500px;
+
+    overflow:hidden;
+
+    color:white;
+
+    font-weight:bold;
+
+    border-width:2px;
+
+    background:rgba(0,0,20,0.6);
+
+    backdrop-filter:blur(10px);
+}
+
+.btn-spanish::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:url("https://flagcdn.com/w320/es.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    opacity:0.18;
+
+    z-index:0;
+}
+
+.btn-spanish{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+.btn-spanish:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 25px rgba(0, 255, 170, 0.7);
+
+    transition:0.3s;
+}
+/* CSS */
+.btn-english {
+    position:relative;
+
+    width:250px;
+    height:200px;
+
+    font-size:500px;
+
+    overflow:hidden;
+
+    color:white;
+
+    font-weight:bold;
+
+    border-width:2px;
+
+    background:rgba(0,0,20,0.6);
+
+    backdrop-filter:blur(10px);
+    
+}
+.btn-english::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:url("https://flagcdn.com/w320/us.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    opacity:0.18;
+
+    z-index:0;
+}
+
+.btn-english{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+.btn-english:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 25px rgba(0, 255, 170, 0.7);
+
+    transition:0.3s;
+}
+
+.footer{
+    text-align:center;
+    padding:40px;
+    margin-top:100px;
+    padding-bottom:60px;
+    border-top:1px solid #00d9ff33;
+}
+
+.ln{
+    font-size: 75px;;
+    margin-top:15px;color:#26fcdf;
+}
+
+.footer p{
+    color:#14ffeb;
+    text-shadow:0 0 25px rgba(0, 255, 170, 0.7);
+    font-size: 30px;
+}
+.footer-stats{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+
+.stat{
+    min-width:120px;
+    text-align:center;
+    color:#ffffff;
+
+    padding:15px 30px;
+
+    border-right:1px solid rgba(0,217,255,.3);
+}
+
+
+.stat:last-child{
+    border-right:none;
+}
+
+.stat i{
+    font-size:85px;
+    color:#e6bcf1;
+
+    margin-bottom:15px;
+
+    filter:
+    drop-shadow(0 0 8px #844ca5);
+}
+
+
+.stat:hover i{
+    color:#aad1e7;
+    text-shadow:
+    0 0 10px #fafafa,
+    0 0 25px #7c3aed;
+    transform:scale(1.15);
+    transition:.3s;
+}
+.icon{
+    font-size:70px;
+    color:#00d9ff;
+    margin-bottom:10px;
+}
+
+
+.stat strong{
+    display:block;
+    font-size:35px;
+    color:#64f7ba;
+}
+
+
+.stat span{
+    color:#ddd;
+    font-size:36px;
+}
+
+@keyframes titleAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title{
+    animation: titleAnimation 1.6s ease;
+}

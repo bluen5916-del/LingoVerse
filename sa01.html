@@ -1,0 +1,123 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>Caperucita Roja</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="sa01.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="sa01.html">Chapter 1</a>
+    <a href="sa02.html">Chapter 2</a>
+    <a href="sa03.html">Chapter 3</a>
+     </aside>
+</div>
+<h1 class="title">Caperucita Roja</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="spanish">
+Había una vez una niña llamada Caperucita Roja que vivía cerca de un bosque.
+</p>
+
+<p class="persian">
+روزی روزگاری دختری به نام کلاه‌قرمزی زندگی می‌کرد که نزدیک یک جنگل زندگی می‌کرد.
+</p>
+
+<p class="spanish">
+Un día, su madre le dijo:
+
+—La Abuela está enferma. Llévale esta canasta de pasteles, pero ten cuidado. Sigue el camino y no te detengas.
+
+</p>
+
+<p class="persian">
+یک روز، مادرش به او گفت:
+
+«مادربزرگ بیمار است. این سبد شیرینی را برای او ببر، اما مراقب باش. در مسیر بمان و توقف نکن.»
+
+</p>
+
+<p class="spanish">
+—No te preocupes, mamá. Iré directamente a casa de la Abuela —respondió Caperucita Roja.
+</p>
+
+<p class="persian">
+«نگران نباش مامان. مستقیم به خانه‌ی مادربزرگ می‌روم.» کلاه‌قرمزی جواب داد.
+</p>
+
+<p class="spanish">
+La niña besó a su madre y comenzó su viaje por el bosque.
+</p>
+
+<p class="persian">
+دختر مادرش را بوسید و سفرش را از میان جنگل شروع کرد.
+</p>
+
+<p class="spanish">
+Pero pronto olvidó las palabras de su madre. Vio unas hermosas fresas bajo un árbol y decidió comer algunas.
+</p>
+
+<p class="persian">
+اما خیلی زود حرف‌های مادرش را فراموش کرد. او زیر یک درخت چند توت‌فرنگی زیبا دید و تصمیم گرفت کمی از آن‌ها بخورد.
+</p>
+
+<p class="spanish">
+—¡Qué fresas tan grandes y bonitas! Sólo comeré una más —dijo ella.
+</p>
+
+<p class="persian">
+«چه توت‌فرنگی‌های بزرگ و زیبایی! فقط یکی دیگر می‌خورم.» او گفت.
+</p>
+
+<p class="spanish">
+Después, Caperucita Roja recordó su promesa y volvió rápidamente al camino.
+</p>
+
+<p class="persian">
+بعد از آن، کلاه‌قرمزی قولش را به یاد آورد و سریع به مسیر برگشت.
+</p>
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

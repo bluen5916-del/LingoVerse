@@ -1,0 +1,20 @@
+body {
+  background: #0b0f1a;
+  color: white;
+  transition: 0.3s;
+}
+
+/* LIGHT MODE کامل */
+body.light {
+  background: #f5f5f5;
+  color: #111;
+}
+
+/* کارت‌ها / دکمه‌ها / باکس‌ها */
+body.light .level-btn,
+body.light .search-box input {
+  background: white;
+  color: black;
+  border-color: #aaa;
+  box-shadow: none;
+}

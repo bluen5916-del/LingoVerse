@@ -1,0 +1,151 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>Caperucita Roja</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="." type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="sa01.html">Chapter 1</a>
+    <a href="sa02.html">Chapter 2</a>
+    <a href="sa03.html">Chapter 3</a>
+    <a href="sa04.html">Chapter4</a>
+     </aside>
+</div>
+<h1 class="title">Caperucita Roja</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 3</h1>
+<p class="spanish">
+—¿Tu Abuela vive sola? —preguntó el lobo.
+</p>
+
+<p class="persian">
+«مادربزرگت تنها زندگی می‌کند؟» گرگ پرسید.
+</p>
+
+<p class="spanish">
+—Sí —respondió Caperucita Roja—. Pero ella nunca abre la puerta a extraños.
+</p>
+
+<p class="persian">
+«بله.» کلاه‌قرمزی جواب داد. «اما او هیچ‌وقت در را برای غریبه‌ها باز نمی‌کند.»
+</p>
+
+<p class="spanish">
+—Tu Abuela es muy inteligente —dijo el lobo.
+</p>
+
+<p class="persian">
+«مادربزرگت خیلی باهوش است.» گرگ گفت.
+</p>
+
+<p class="spanish">
+El lobo sonrió y se despidió de la niña.
+</p>
+
+<p class="persian">
+گرگ لبخند زد و از دختر خداحافظی کرد.
+</p>
+
+<p class="spanish">
+—Tal vez nos encontremos otra vez —dijo antes de irse.
+</p>
+
+<p class="persian">
+«شاید دوباره همدیگر را ببینیم.» قبل از رفتن گفت.
+</p>
+
+<p class="spanish">
+Pero el lobo tenía un plan. Quería llegar primero a la casa de la Abuela.
+</p>
+
+<p class="persian">
+اما گرگ نقشه‌ای داشت. او می‌خواست زودتر از کلاه‌قرمزی به خانه‌ی مادربزرگ برسد.
+</p>
+
+<p class="spanish">
+El lobo corrió por el bosque hasta llegar a una pequeña casa al final del camino.
+</p>
+
+<p class="persian">
+گرگ در جنگل دوید تا به خانه‌ی کوچکی در انتهای مسیر رسید.
+</p>
+
+<p class="spanish">
+Toc, toc. El lobo llamó a la puerta.
+</p>
+
+<p class="persian">
+تق، تق. گرگ به در زد.
+</p>
+
+<p class="spanish">
+—¿Quién está ahí? —preguntó la Abuela desde la cama.
+</p>
+
+<p class="persian">
+«چه کسی آنجاست؟» مادربزرگ از روی تخت پرسید.
+</p>
+
+<p class="spanish">
+—Soy Caperucita Roja. Te traje unos pasteles porque estás enferma —dijo el lobo intentando cambiar su voz.
+</p>
+
+<p class="persian">
+«من کلاه‌قرمزی هستم. چون مریض هستی برایت شیرینی آورده‌ام.» گرگ گفت و سعی کرد صدایش را تغییر دهد.
+</p>
+
+<p class="spanish">
+—¡Qué bonito! Entra, querida —respondió la Abuela.
+</p>
+
+<p class="persian">
+«چه خوب! بیا داخل عزیزم.» مادربزرگ جواب داد.
+</p>
+
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

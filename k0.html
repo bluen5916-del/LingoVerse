@@ -1,0 +1,135 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>빨간 우산</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="kr0.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="k0.html">Chapter 1</a>
+
+     </aside>
+</div>
+<h1 class="title">빨간 우산</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+비가 오는 오후였어요. 준호는 집에 가다가 작은 카페에 들어갔어요. 커피를 마시다가 빨간 우산을 발견했어요.
+</p>
+
+<p class="persian">
+یک بعدازظهر بارانی بود. جونو در راه رفتن به خانه وارد یک کافه‌ی کوچک شد. وقتی داشت قهوه می‌نوشید، یک چتر قرمز پیدا کرد.
+</p>
+
+<p class="korean">
+우산에는 작은 곰 인형이 달려 있었어요. 준호는 직원에게 물어봤어요.
+</p>
+
+<p class="persian">
+یک عروسک خرسی کوچک به چتر وصل شده بود. جونو از یکی از کارکنان پرسید:
+</p>
+
+<p class="korean">
+“이 우산은 누구 거예요?”
+</p>
+
+<p class="persian">
+«این چتر مال کیه؟»
+</p>
+
+<p class="korean">
+직원은 할머니가 두고 갔다고 말했어요.
+</p>
+
+<p class="persian">
+کارمند گفت که یک مادربزرگ آن را جا گذاشته است.
+</p>
+
+<p class="korean">
+준호는 밖으로 나가 할머니를 찾았어요. 할머니는 우산 없이 비를 맞고 있었어요.
+</p>
+
+<p class="persian">
+جونو بیرون رفت و دنبال مادربزرگ گشت. مادربزرگ بدون چتر زیر باران ایستاده بود.
+</p>
+
+<p class="korean">
+“할머니, 이 우산은 할머니 거예요?”
+</p>
+
+<p class="persian">
+«مادربزرگ، این چتر مال شماست؟»
+</p>
+
+<p class="korean">
+“맞아요! 정말 고마워요.”
+</p>
+
+<p class="persian">
+«بله! واقعاً ممنونم.»
+</p>
+
+<p class="korean">
+할머니는 준호에게 따뜻한 차를 사 주었어요. 두 사람은 카페에서 이야기를 나눴어요.
+</p>
+
+<p class="persian">
+مادربزرگ برای جونو یک چای گرم خرید. آن دو در کافه با هم صحبت کردند.
+</p>
+
+<p class="korean">
+비가 그치고, 준호는 기분 좋게 집으로 돌아갔어요.
+</p>
+
+<p class="persian">
+باران بند آمد و جونو با حال خوب به خانه برگشت.
+</p>
+
+
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

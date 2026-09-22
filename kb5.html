@@ -1,0 +1,168 @@
+  <html>
+    <head>
+        <title>책장 사이의 우연</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="kb4.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="kb5.html">Chapter 1</a>
+    <a href="kb05.html">Chapter 2</a>
+    <a href="kb15.html">Chapter 3</a>
+
+
+     </aside>
+</div>
+<h1 class="title">책장 사이의 우연</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+토요일 오후, 서연은 조용한 도서관에서 혼자 공부하고 있었어요.
+</p>
+
+<p class="persian">
+عصر شنبه، سو‌یون در یک کتابخانه آرام مشغول مطالعه بود.
+</p>
+
+<p class="korean">
+시험이 얼마 남지 않아서 요즘 매일 도서관에 와서 공부하고 있었어요.
+</p>
+
+<p class="persian">
+چون زمان زیادی تا امتحانش نمانده بود، این روزها هر روز به کتابخانه می‌آمد و درس می‌خواند.
+</p>
+
+<p class="korean">
+서연은 책상 위에 노트와 책을 여러 권 펼쳐 놓고 중요한 내용을 정리하고 있었어요.
+</p>
+
+<p class="persian">
+سو‌یون چند کتاب و دفتر روی میز گذاشته بود و داشت مطالب مهم را مرتب و خلاصه می‌کرد.
+</p>
+
+<p class="korean">
+그때 맞은편 자리에 한 남자가 앉았어요.
+</p>
+
+<p class="persian">
+همان موقع، پسری روی صندلی روبه‌روی او نشست.
+</p>
+
+<p class="korean">
+그는 가방에서 책을 몇 권 꺼내더니 조용히 책을 읽기 시작했어요.
+</p>
+
+<p class="persian">
+او چند کتاب از کیفش بیرون آورد و شروع کرد به آرامی کتاب خواندن.
+</p>
+
+<p class="korean">
+서연은 다시 공부하려고 했지만, 갑자기 책 한 권이 바닥으로 떨어졌어요.
+</p>
+
+<p class="persian">
+سو‌یون می‌خواست دوباره مشغول درس خواندن شود، اما ناگهان یکی از کتاب‌ها روی زمین افتاد.
+</p>
+
+<p class="korean">
+서연: 아…
+</p>
+
+<p class="persian">
+سو‌یون: آ…
+</p>
+
+<p class="korean">
+서연이 책을 주우려고 몸을 숙였지만, 맞은편에 있던 남자가 먼저 책을 주워 주었어요.
+</p>
+
+<p class="persian">
+سو‌یون خم شد تا کتاب را بردارد، اما پسری که روبه‌رویش نشسته بود زودتر کتاب را برداشت.
+</p>
+
+<p class="korean">
+남자: 이거 떨어뜨리셨어요?
+</p>
+
+<p class="persian">
+پسر: این از دست شما افتاد؟
+</p>
+
+<p class="korean">
+서연: 아, 네. 감사합니다.
+</p>
+
+<p class="persian">
+سو‌یون: آره. ممنونم.
+</p>
+
+<p class="korean">
+남자: 괜찮아요.
+</p>
+
+<p class="persian">
+پسر: خواهش می‌کنم.
+</p>
+
+<p class="korean">
+남자는 책을 서연에게 건네고 다시 자기 자리로 돌아갔어요.
+</p>
+
+<p class="persian">
+پسر کتاب را به سو‌یون داد و دوباره به جای خودش برگشت.
+</p>
+
+<p class="korean">
+서연은 책을 받아서 잠시 그 남자를 바라봤어요.
+</p>
+
+<p class="persian">
+سو‌یون کتاب را گرفت و برای لحظه‌ای به آن پسر نگاه کرد.
+</p>
+
+<p class="korean">
+그런데 책 표지를 보니 서연이 찾고 있던 책과 같은 책이었어요.
+</p>
+
+<p class="persian">
+اما وقتی جلد کتاب را دید، متوجه شد که همان کتابی است که خودش هم
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

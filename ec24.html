@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>The Hole in the Wall</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="en04.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="ec4.html">Chapter 1</a>
+    <a href="ec04.html">Chapter 2</a>
+    <a href="ev14.html">Chapter 3</a>
+    <a href="ec24.html">Chapter 4</a>
+
+
+     </aside>
+</div>
+<h1 class="title">The Hole in the Wall</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 4</h1>
+<p class="english">
+There was a tax on traders departing the city. Joanna's last five coins were just enough to pay it.
+</p>
+
+<p class="persian">
+برای معامله‌گرانی که شهر را ترک می‌کردند، مالیاتی وجود داشت. پنج سکه آخر جوانا دقیقاً برای پرداخت آن کافی بود.
+</p>
+
+<p class="english">
+She strode out in her good boots and new clothes. On her back, she carried her mother's stall. She walked all day and slept well at night, happy to be heading for home. As she got further and further away from the capital, the familiar mountains of home slowly rose ahead.
+</p>
+
+<p class="persian">
+او با چکمه‌های خوب و لباس‌های جدیدش با قدم‌های محکم از شهر خارج شد. غرفه مادرش را روی پشتش حمل می‌کرد. تمام روز راه رفت و شب‌ها با آرامش خوابید؛ خوشحال بود که به سمت خانه می‌رفت. هرچه بیشتر از پایتخت دور می‌شد، کوه‌های آشنای سرزمینش کم‌کم در مقابلش نمایان می‌شدند.
+</p>
+
+<p class="english">
+Her pockets were empty, but her heart was full.
+</p>
+
+<p class="persian">
+جیب‌هایش خالی بود، اما قلبش پر بود.
+</p>
+
+<p class="english">
+From time to time she met other travellers on the road. When she saw them coming, she put up her stall and sold her story to anyone who wanted to buy it.
+</p>
+
+<p class="persian">
+هر از گاهی در جاده با مسافران دیگری روبه‌رو می‌شد. وقتی آن‌ها را می‌دید که به سمتش می‌آیند، غرفه‌اش را برپا می‌کرد و داستانش را به هر کسی که می‌خواست آن را بخرد، می‌فروخت.
+</p>
+
+<p class="english">
+She never asked for much in return – just a coin or two if her customer had money, some food or drink if not. And although no one believed her story was true, they believed the lessons it contained.
+</p>
+
+<p class="persian">
+او هیچ‌وقت چیز زیادی در ازای داستانش نمی‌خواست؛ اگر مشتری پول داشت، فقط یک یا دو سکه می‌گرفت و اگر نداشت، کمی غذا یا نوشیدنی قبول می‌کرد. و با اینکه هیچ‌کس باور نمی‌کرد داستانش واقعی باشد، همه به درس‌هایی که در آن وجود داشت باور داشتند.
+</p>
+
+<p class="english">
+For some the lesson was 'appreciate what you have' or 'greed will mean you lose everything.' For others, it was 'wisdom comes at a price.'
+</p>
+
+<p class="persian">
+برای بعضی‌ها، درس داستان این بود که «قدر چیزهایی را که داری بدان» یا «طمع باعث می‌شود همه‌چیز را از دست بدهی». برای بعضی دیگر، درس آن این بود که «خرد بهایی دارد».
+</p>
+
+<p class="english">
+For Joanna, the last trader in her family, it was the answer to her question: What reward could be greater than all the money she had? Now she knew the answer was wisdom, priceless wisdom.
+</p>
+
+<p class="persian">
+برای جوانا، آخرین معامله‌گر خانواده‌اش، این داستان پاسخ پرسشش بود: «چه پاداشی می‌توانست از تمام پولی که داشت باارزش‌تر باشد؟» حالا جواب را می‌دانست: خرد، خردی که قیمتی ندارد.
+</p>
+
+<p class="english">
+Story written by Andrew Leon Hudson and adapted by Nicola Prentis.
+</p>
+
+<p class="persian">
+این داستان نوشته اندرو لئون هادسون و با اقتباس نیکولا پرنتیس است.
+</p>
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

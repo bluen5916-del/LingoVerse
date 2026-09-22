@@ -1,0 +1,153 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>나와 내 친구들</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="k0.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="k02.html">Chapter 1</a>
+    <a href="k03.html">Chapter 2</a>
+
+     </aside>
+</div>
+<h1 class="title">나와 내 친구들</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+안녕! 나는 미주야.
+나는 학생이야.
+</p>
+
+<p class="persian">
+سلام! من میجو هستم.
+من دانش‌آموزم.
+</p>
+
+<p class="korean">
+이건 내 친구야.
+내 친구 이름은 현우야.
+</p>
+
+<p class="persian">
+این دوستم هست.
+اسم دوستم هیونو هست.
+</p>
+
+<p class="korean">
+현우는 남자야.
+나는 여자야.
+</p>
+
+<p class="persian">
+هیونو پسره.
+من دخترم.
+</p>
+
+<p class="korean">
+우리는 친구야.
+그리고 우리는 학생이야.
+</p>
+
+<p class="persian">
+ما دوست هستیم.
+و ما دانش‌آموز هستیم.
+</p>
+
+<p class="korean">
+우리는 2학년이야.
+학교에서 같이 공부해.
+</p>
+
+<p class="persian">
+ما کلاس دوم هستیم.
+در مدرسه با هم درس می‌خوانیم.
+</p>
+
+<p class="korean">
+현우는 공부를 좋아해.
+나는 음악을 좋아해.
+</p>
+
+<p class="persian">
+هیونو درس خواندن را دوست دارد.
+من موسیقی را دوست دارم.
+</p>
+
+<p class="korean">
+우리는 매일 학교에서 만나.
+그리고 같이 이야기해.
+</p>
+
+<p class="persian">
+ما هر روز در مدرسه همدیگر را می‌بینیم.
+و با هم صحبت می‌کنیم.
+</p>
+
+<p class="korean">
+오늘도 우리는 학교에 가.
+“안녕, 현우야!”
+“안녕, 미주야!”
+</p>
+
+<p class="persian">
+امروز هم به مدرسه می‌رویم.
+«سلام، هیونو!»
+«سلام، میجو!»
+</p>
+
+<p class="korean">
+우리는 웃으면서 교실에 들어가.
+</p>
+
+<p class="persian">
+ما در حالی که می‌خندیم، وارد کلاس می‌شویم.
+</p>
+
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>positive books</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src=".mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="ec3.html">Chapter 1</a>
+    <a href="ec03.html">Chapter 2</a>
+    <a href="ec13.html">Chapter 3</a>
+    <a href="ec23.html">Chapter 4</a>
+
+     </aside>
+</div>
+<h1 class="title">positive books</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 4</h1>
+
+<p class="english">
+### The Great Surge – Steven Radelet
+</p>
+
+<p class="persian">
+### جهش بزرگ – استیون رادلت
+</p>
+
+<p class="english">
+The majority of people believe that developing countries are in a terrible situation: suffering from incredible poverty, governed by dictators and with little hope for any meaningful change. But, surprisingly, this is far from the truth. The reality is that a great transformation is occurring. Over the past 20 years, more than 700 million people have increased their income and come out of poverty. Additionally, six million fewer children die every year from disease, millions more girls are in school and millions of people have access to clean water.
+</p>
+
+<p class="persian">
+بیشتر مردم باور دارند که کشورهای در حال توسعه در شرایط بسیار بدی هستند؛ با فقر شدید، حکومت دیکتاتورها و امید کمی برای تغییرات مهم. اما جالب اینجاست که این تصور با واقعیت فاصله زیادی دارد. واقعیت این است که یک تحول بزرگ در حال رخ دادن است. در ۲۰ سال گذشته، بیش از ۷۰۰ میلیون نفر درآمدشان افزایش یافته و از فقر خارج شده‌اند. علاوه بر این، هر سال شش میلیون کودک کمتر بر اثر بیماری جان خود را از دست می‌دهند، میلیون‌ها دختر بیشتر به مدرسه می‌روند و میلیون‌ها نفر به آب آشامیدنی سالم دسترسی پیدا کرده‌اند.
+</p>
+
+<p class="english">
+This is happening across developing countries around the world. The end of the Cold War, the development of new technologies and brave new leadership have helped to improve the lives of hundreds of millions of people in poor countries.
+</p>
+
+<p class="persian">
+این اتفاق در کشورهای در حال توسعه در سراسر جهان رخ می‌دهد. پایان جنگ سرد، پیشرفت فناوری‌های جدید و ظهور رهبران شجاع و جدید، به بهتر شدن زندگی صدها میلیون نفر در کشورهای فقیر کمک کرده است.
+</p>
+
+<p class="english">
+The Great Surge describes how all of this is happening and, more importantly, it shows us how we can accelerate the process.
+</p>
+
+<p class="persian">
+کتاب «جهش بزرگ» توضیح می‌دهد که همه این تغییرات چگونه اتفاق می‌افتند و مهم‌تر از آن، به ما نشان می‌دهد که چگونه می‌توانیم این روند را سریع‌تر کنیم.
+</p>
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

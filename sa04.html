@@ -1,0 +1,144 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>Caperucita Roja</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="." type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="sa01.html">Chapter 1</a>
+    <a href="sa02.html">Chapter 2</a>
+    <a href="sa03.html">Chapter 3</a>
+    <a href="sa04.html">Chapter4</a>
+     </aside>
+</div>
+<h1 class="title">Caperucita Roja</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 4</h1>
+<p class="spanish">
+En ese momento, un cazador salió del bosque. Vio la casa de la abuela y decidió entrar para pedir un poco de agua.
+</p>
+
+<p class="persian">
+در همان لحظه، یک شکارچی از جنگل بیرون آمد. خانه‌ی مادربزرگ را دید و تصمیم گرفت وارد شود تا کمی آب بخواهد.
+</p>
+
+
+<p class="spanish">
+El cazador escuchó un sonido extraño dentro de la casa. Miró por la ventana y vio al gran lobo durmiendo en la cama de la abuela.
+</p>
+
+<p class="persian">
+شکارچی صدای عجیبی از داخل خانه شنید. از پنجره نگاه کرد و گرگ بزرگ را دید که روی تخت مادربزرگ خوابیده بود.
+</p>
+
+
+<p class="spanish">
+—¡Es el lobo! ¡Esta vez no escapará! —dijo el cazador.
+</p>
+
+<p class="persian">
+«این همان گرگ است! این بار فرار نمی‌کند!» شکارچی گفت.
+</p>
+
+
+<p class="spanish">
+El cazador entró en la casa cuidadosamente. Cerca de la cama escuchó una voz pequeña que lloraba.
+</p>
+
+<p class="persian">
+شکارچی با احتیاط وارد خانه شد. نزدیک تخت صدای گریه‌ی کوچکی شنید.
+</p>
+
+
+<p class="spanish">
+Entonces abrió la barriga del lobo y encontró a Caperucita Roja y a su abuela sanas y salvas.
+</p>
+
+<p class="persian">
+سپس شکم گرگ را باز کرد و کلاه‌قرمزی و مادربزرگش را سالم پیدا کرد.
+</p>
+
+
+<p class="spanish">
+El cazador puso unas piedras en la barriga del lobo y la cerró. Cuando el lobo despertó, salió corriendo y nunca volvió al pueblo.
+</p>
+
+<p class="persian">
+شکارچی چند سنگ داخل شکم گرگ گذاشت و آن را بست. وقتی گرگ بیدار شد، فرار کرد و دیگر هرگز به روستا برنگشت.
+</p>
+
+
+<p class="spanish">
+La madre de Caperucita Roja llegó a la casa de la abuela cuando el sol estaba bajando. Cuando vio a su hija, lloró de alegría.
+</p>
+
+<p class="persian">
+مادر کلاه‌قرمزی وقتی خورشید در حال غروب بود به خانه‌ی مادربزرگ رسید. وقتی دخترش را دید، از خوشحالی گریه کرد.
+</p>
+
+
+<p class="spanish">
+Después de agradecer al cazador, Caperucita Roja y su madre volvieron a casa caminando por el bosque.
+</p>
+
+<p class="persian">
+بعد از تشکر از شکارچی، کلاه‌قرمزی و مادرش از میان جنگل به خانه برگشتند.
+</p>
+
+
+<p class="spanish">
+—Siempre debemos seguir el camino y nunca detenernos. Así estaremos seguras —dijo Caperucita Roja.
+</p>
+
+<p class="persian">
+«ما همیشه باید در مسیر بمانیم و هیچ‌وقت توقف نکنیم. این‌طوری امن می‌مانیم.» کلاه‌قرمزی گفت.
+</p>
+
+
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

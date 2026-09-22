@@ -1,0 +1,186 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>지아의 작은 하루들</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+               <div class="app">
+        <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="j2.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="kj1.html">Chapter 1</a>
+    <a href="kj2.html">Chapter 2</a>
+    <a href="kj3.html">Chapter 3</a>
+
+     </aside>
+</div>
+<h1 class="title">지아의 작은 하루들</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 2</h1>
+<p class="korean">
+지아는 아침에 일어나요.
+</p>
+
+<p class="persian">
+جیا صبح بیدار می‌شود.
+</p>
+
+<p class="korean">
+창문을 열어요.
+</p>
+
+<p class="persian">
+پنجره را باز می‌کند.
+</p>
+
+<p class="korean">
+밖에 햇빛이 아주 밝아요.
+</p>
+
+<p class="persian">
+بیرون، نور خورشید خیلی روشن است.
+</p>
+
+<p class="korean">
+그리고 세수를 하고 아침을 먹어요.
+</p>
+
+<p class="persian">
+و بعد صورتش را می‌شوید و صبحانه می‌خورد.
+</p>
+
+<p class="korean">
+지아는 빵과 우유를 좋아해요.
+</p>
+
+<p class="persian">
+جیا نان و شیر را دوست دارد.
+</p>
+
+<p class="korean">
+아침을 먹으면서 음악을 들어요.
+</p>
+
+<p class="persian">
+هنگام خوردن صبحانه به موسیقی گوش می‌دهد.
+</p>
+
+<p class="korean">
+아침 8시에 학교에 가요.
+</p>
+
+<p class="persian">
+ساعت ۸ صبح به مدرسه می‌رود.
+</p>
+
+<p class="korean">
+학교에서 친구들을 만나요.
+</p>
+
+<p class="persian">
+در مدرسه دوستانش را ملاقات می‌کند.
+</p>
+
+<p class="korean">
+친구와 같이 공부하고 이야기도 해요.
+</p>
+
+<p class="persian">
+با دوستش با هم درس می‌خواند و صحبت هم می‌کند.
+</p>
+
+<p class="korean">
+저녁이 되면 집에 와요.
+</p>
+
+<p class="persian">
+وقتی عصر می‌شود، به خانه می‌آید.
+</p>
+
+<p class="korean">
+조금 피곤하지만 텔레비전을 보면서 쉬어요.
+</p>
+
+<p class="persian">
+کمی خسته است، اما در حالی که تلویزیون می‌بیند استراحت می‌کند.
+</p>
+
+<p class="korean">
+밤에는 방에 들어가요.
+</p>
+
+<p class="persian">
+شب وارد اتاقش می‌شود.
+</p>
+
+<p class="korean">
+내일 학교에 가야 해서 일찍 자려고 해요.
+</p>
+
+<p class="persian">
+چون فردا باید به مدرسه برود، می‌خواهد زود بخوابد.
+</p>
+
+<p class="korean">
+“오늘도 재미있었어!”
+</p>
+
+<p class="persian">
+«امروز هم جالب بود!»
+</p>
+
+<p class="korean">
+지아는 웃으면서 잠을 자요.
+</p>
+
+<p class="persian">
+جیا با لبخند می‌خوابد.
+</p>
+
+
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

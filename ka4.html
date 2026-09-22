@@ -1,0 +1,153 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>호민의 시장 방문</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="ka5.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="ka4.html">Chapter 1</a>
+     </aside>
+</div>
+<h1 class="title">호민의 시장 방문</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+호민은 아침에 일어나요.  
+따뜻한 차를 마시고 시장에 가요.
+</p>
+
+<p class="persian">
+هومین صبح بیدار می‌شود.  
+چای گرم می‌نوشد و به بازار می‌رود.
+</p>
+
+<p class="korean">
+시장에는 사람들이 많아요.  
+호민은 빵, 사과, 바나나, 토마토를 사요.
+</p>
+
+<p class="persian">
+بازار شلوغ است و آدم‌های زیادی آنجا هستند.  
+هومین نان، سیب، موز و گوجه‌فرنگی می‌خرد.
+</p>
+
+<p class="korean">
+길 옆 작은 공원에서 잠깐 멈춰요.  
+강아지가 신나게 뛰어놀고 있어요.  
+호민은 강아지를 보며 웃어요.
+</p>
+
+<p class="persian">
+کنار خیابان، برای لحظه‌ای در یک پارک کوچک توقف می‌کند.  
+یک سگ با هیجان در حال بازی و دویدن است.  
+هومین با دیدن سگ لبخند می‌زند.
+</p>
+
+<p class="korean">
+시장에 도착하니 사람들이 많고 아주 활기차요.  
+호민은 따뜻한 빵을 사고 과일과 채소도 사요.  
+생선 가게에서는 아저씨가 큰 소리로 생선을 팔고 있어요.  
+호민은 생선을 구경만 해요.  
+그리고 떡집에서 따뜻한 떡도 조금 사요.
+</p>
+
+<p class="persian">
+وقتی هومین به بازار می‌رسد، آدم‌های زیادی هستند و بازار خیلی پرجنب‌وجوش است.  
+هومین نان گرم می‌خرد و میوه و سبزیجات هم می‌خرد.  
+در مغازه‌ی ماهی‌فروشی، مرد فروشنده با صدای بلند ماهی می‌فروشد.  
+هومین فقط ماهی‌ها را تماشا می‌کند.  
+بعد هم از مغازه‌ی 떡 کمی 떡 گرم می‌خرد.
+</p>
+
+<p class="korean">
+그리고 친구 수진이를 만나요.
+</p>
+
+<p class="persian">
+بعد دوستش، سوجین، را می‌بیند.
+</p>
+
+<p class="korean">
+“호민아, 안녕!”  
+“수진아, 오랜만이야!”
+</p>
+
+<p class="persian">
+«هومین، سلام!»  
+«سوجین، خیلی وقته ندیدمت!»
+</p>
+
+<p class="korean">
+두 사람은 날씨와 쇼핑 이야기를 해요.  
+수진이는 커피를 사러 가요.
+</p>
+
+<p class="persian">
+آن دو درباره‌ی هوا و خریدشان صحبت می‌کنند.  
+سوجین برای خرید قهوه می‌رود.
+</p>
+
+<p class="korean">
+호민은 꽃집에서 예쁜 노란 꽃도 사요.  
+그리고 집으로 돌아가요.
+</p>
+
+<p class="persian">
+هومین از گل‌فروشی هم گل‌های زرد و زیبایی می‌خرد.  
+بعد به خانه برمی‌گردد.
+</p>
+
+<p class="korean">
+집에 도착한 호민은 행복해요. 🌼
+</p>
+
+<p class="persian">
+هومین وقتی به خانه می‌رسد، خوشحال است. 
+</p>
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

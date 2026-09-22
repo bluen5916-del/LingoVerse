@@ -1,0 +1,194 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>지아의 작은 하루들</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+               <div class="app">
+        <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="j3.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="kj1.html">Chapter 1</a>
+    <a href="kj2.html">Chapter 2</a>
+    <a href="kj3.html">Chapter 3</a>
+
+     </aside>
+</div>
+<h1 class="title">지아의 작은 하루들</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 3</h1>
+<p class="korean">
+지아는 토요일 아침에 공원에 가요.
+</p>
+
+<p class="persian">
+جیا صبح شنبه به پارک می‌رود.
+</p>
+
+<p class="korean">
+날씨가 아주 좋아요.
+</p>
+
+<p class="persian">
+هوا خیلی خوب است.
+</p>
+
+<p class="korean">
+지아는 공원에서 천천히 걸어요.
+</p>
+
+<p class="persian">
+جیا در پارک آرام‌آرام قدم می‌زند.
+</p>
+
+<p class="korean">
+그런데 나무 아래에 작은 고양이가 있어요.
+</p>
+
+<p class="persian">
+اما زیر یک درخت، یک گربه کوچک وجود دارد.
+</p>
+
+<p class="korean">
+지아가 고양이를 봐요.
+</p>
+
+<p class="persian">
+جیا گربه را می‌بیند.
+</p>
+
+<p class="korean">
+고양이도 지아를 봐요.
+</p>
+
+<p class="persian">
+گربه هم جیا را نگاه می‌کند.
+</p>
+
+<p class="korean">
+지아는 고양이에게 가까이 가요.
+</p>
+
+<p class="persian">
+جیا به گربه نزدیک می‌شود.
+</p>
+
+<p class="korean">
+그리고 가방에서 빵을 꺼내요.
+</p>
+
+<p class="persian">
+و از کیفش نان بیرون می‌آورد.
+</p>
+
+<p class="korean">
+고양이가 빵을 먹어요.
+</p>
+
+<p class="persian">
+گربه نان را می‌خورد.
+</p>
+
+<p class="korean">
+지아는 웃어요.
+</p>
+
+<p class="persian">
+جیا لبخند می‌زند.
+</p>
+
+<p class="korean">
+조금 후에 고양이가 일어나요.
+</p>
+
+<p class="persian">
+کمی بعد، گربه بلند می‌شود.
+</p>
+
+<p class="korean">
+그리고 지아를 따라와요.
+</p>
+
+<p class="persian">
+و دنبال جیا می‌آید.
+</p>
+
+<p class="korean">
+지아는 집에 가요.
+</p>
+
+<p class="persian">
+جیا به خانه می‌رود.
+</p>
+
+<p class="korean">
+고양이도 지아와 같이 가요.
+</p>
+
+<p class="persian">
+گربه هم همراه جیا می‌رود.
+</p>
+
+<p class="korean">
+지아가 말해요.
+</p>
+
+<p class="persian">
+جیا می‌گوید.
+</p>
+
+<p class="korean">
+“너 우리 집에 갈 거야?”
+</p>
+
+<p class="persian">
+«تو می‌خوای به خانه ما بیایی؟»
+</p>
+
+
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

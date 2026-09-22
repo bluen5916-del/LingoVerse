@@ -1,0 +1,144 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>Un verano en familia</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+               <div class="app">
+        <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="s1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="st.html">Chapter 1</a>
+    <a href="st2.html">Chapter 2</a>
+    <a href="st3.html">Chapter 3</a>
+
+     </aside>
+</div>
+<h1 class="title">Un verano en familia</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="Spanish">
+Mi abuela Juliana
+</p>
+
+<p class="persian">
+مادربزرگم خولیانا
+</p>
+
+<p class="Spanish">
+Mi abuela Juliana tiene noventa y dos años.
+</p>
+
+<p class="persian">
+مادربزرگم خولیانا نود و دو ساله است.
+</p>
+
+<p class="Spanish">
+Antes, vivía en la calle Madrid, pero ahora se queda con nosotros en la calle París.
+</p>
+
+<p class="persian">
+قبلاً در خیابان مادرید زندگی می‌کرد، اما حالا پیش ما در خیابان پاریس می‌ماند.
+</p>
+
+<p class="Spanish">
+Aunque tiene buena salud, está empezando a perder la vista.
+</p>
+
+<p class="persian">
+با اینکه سالم است، کم‌کم دارد بینایی‌اش را از دست می‌دهد.
+</p>
+
+<p class="Spanish">
+Como mi abuela extraña leer, llegué a un acuerdo con mi hermano, Michel.
+</p>
+
+<p class="persian">
+چون مادربزرگم دلش برای کتاب خواندن تنگ شده، با برادرم، میشل، به توافق رسیدم.
+</p>
+
+<p class="Spanish">
+Él le lee las noticias en las mañanas y yo le leo un cuento por las tardes.
+</p>
+
+<p class="persian">
+او صبح‌ها اخبار را برای مادربزرگم می‌خواند و من بعدازظهرها برایش یک داستان می‌خوانم.
+</p>
+
+<p class="Spanish">
+Cuando mi mamá llega del trabajo nos trae deliciosos pasteles para merendar.
+</p>
+
+<p class="persian">
+وقتی مادرم از سر کار برمی‌گردد، برای میان‌وعده شیرینی‌های خوشمزه برایمان می‌آورد.
+</p>
+
+<p class="Spanish">
+El preferido de mi abuela es el de fresa, pero a mí me gusta más el de chocolate negro.
+</p>
+
+<p class="persian">
+موردعلاقه‌ی مادربزرگم شیرینی توت‌فرنگی است، اما من شیرینی شکلات تلخ را بیشتر دوست دارم.
+</p>
+
+<p class="Spanish">
+Cuando mi abuela se mudó con nosotros, trajo a Pepe, su perro labrador.
+</p>
+
+<p class="persian">
+وقتی مادربزرگم پیش ما نقل مکان کرد، پپه، سگ لابرادورش، را هم با خودش آورد.
+</p>
+
+<p class="Spanish">
+Mi padre siempre lo saca de paseo al parque antes de que anochezca.
+</p>
+
+<p class="persian">
+پدرم همیشه قبل از تاریک شدن هوا او را برای پیاده‌روی به پارک می‌برد.
+</p>
+</body>
+  
+ <script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

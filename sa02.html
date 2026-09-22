@@ -1,0 +1,175 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <title>Caperucita Roja</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+       <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="sa02.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="sa01.html">Chapter 1</a>
+    <a href="sa02.html">Chapter 2</a>
+    <a href="sa03.html">Chapter 3</a>
+    <a href="sa04.html">Chapter4</a>
+     </aside>
+</div>
+<h1 class="title">Caperucita Roja</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 2</h1>
+<p class="spanish">
+Caperucita Roja siguió caminando por el bosque. Los árboles eran altos y el camino era largo.
+</p>
+
+<p class="persian">
+کلاه‌قرمزی به راه رفتن در جنگل ادامه داد. درخت‌ها بلند بودند و مسیر طولانی بود.
+</p>
+
+<p class="spanish">
+De pronto, vio una mariposa amarilla volando entre los árboles.
+</p>
+
+<p class="persian">
+ناگهان یک پروانه‌ی زرد دید که بین درخت‌ها پرواز می‌کرد.
+</p>
+
+<p class="spanish">
+—¡Qué bonita mariposa! —dijo ella.
+</p>
+
+<p class="persian">
+«چه پروانه‌ی زیبایی!» او گفت.
+</p>
+
+<p class="spanish">
+Caperucita empezó a seguirla y se alejó un poco del camino.
+</p>
+
+<p class="persian">
+کلاه‌قرمزی شروع کرد به دنبال کردن پروانه و کمی از مسیر دور شد.
+</p>
+
+<p class="spanish">
+Después vio unas margaritas grandes y blancas en el pasto.
+</p>
+
+<p class="persian">
+بعد از آن، چند گل مروارید بزرگ و سفید روی چمن دید.
+</p>
+
+<p class="spanish">
+—A la Abuela le gustarán mucho estas flores —pensó.
+</p>
+
+<p class="persian">
+«مادربزرگ این گل‌ها را خیلی دوست خواهد داشت.» با خودش فکر کرد.
+</p>
+
+<p class="spanish">
+Entonces recogió un ramo de flores para llevarlo a su Abuela.
+</p>
+
+<p class="persian">
+پس یک دسته گل چید تا برای مادربزرگش ببرد.
+</p>
+
+<p class="spanish">
+Mientras tanto, unos ojos extraños la observaban desde detrás de un árbol.
+</p>
+
+<p class="persian">
+در همین حال، چند چشم عجیب از پشت یک درخت او را زیر نظر داشتند.
+</p>
+
+<p class="spanish">
+Un ruido en el bosque la hizo asustarse. Su corazón empezó a latir rápido.
+</p>
+
+<p class="persian">
+صدایی در جنگل باعث شد بترسد. قلبش شروع کرد به تند تپیدن.
+</p>
+
+<p class="spanish">
+—Debo encontrar el camino y volver pronto —dijo Caperucita.
+</p>
+
+<p class="persian">
+«باید مسیر را پیدا کنم و زود برگردم.» کلاه‌قرمزی گفت.
+</p>
+
+<p class="spanish">
+Corrió hasta encontrar nuevamente el camino. Pero cuando empezó a sentirse tranquila, escuchó una voz detrás de ella.
+</p>
+
+<p class="persian">
+او دوید تا دوباره مسیر را پیدا کرد. اما وقتی کمی آرام شد، صدایی را از پشت سرش شنید.
+</p>
+
+<p class="spanish">
+—Hola, pequeña niña. ¿Por qué caminas sola por el bosque? ¿A dónde vas?
+</p>
+
+<p class="persian">
+«سلام دختر کوچولو. چرا تنها در جنگل راه می‌روی؟ کجا می‌روی؟»
+</p>
+
+<p class="spanish">
+Caperucita Roja miró al extraño y respondió con una voz tímida:
+</p>
+
+<p class="persian">
+کلاه‌قرمزی به آن غریبه نگاه کرد و با صدایی خجالتی جواب داد:
+</p>
+
+<p class="spanish">
+—Voy a llevar unos pasteles a mi Abuela. Ella vive al final de este camino.
+</p>
+
+<p class="persian">
+«من چند شیرینی برای مادربزرگم می‌برم. او در انتهای این مسیر زندگی می‌کند.»
+</p>
+
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

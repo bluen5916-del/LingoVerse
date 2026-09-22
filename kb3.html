@@ -1,0 +1,143 @@
+  <html>
+    <head>
+        <title>빅토리아에게 온 손님</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="kb3.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="kb3.html">Chapter 1</a>
+    <a href="kb03.html">Chapter 2</a>
+
+
+     </aside>
+</div>
+<h1 class="title">빅토리아에게 온 손님</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="korean">
+빅토리아가 집을 나가려고 할 때 누군가 문을 두드렸어요.
+</p>
+
+<p class="persian">
+وقتی ویکتوریا می‌خواست از خانه بیرون برود، کسی در زد.
+</p>
+
+<p class="korean">
+빅토리아는 엘리베이터 소리도, 계단을 올라오는 소리도 듣지 못했어요. 그래서 조금 이상하다고 생각했어요.
+</p>
+
+<p class="persian">
+ویکتوریا نه صدای آسانسور را شنیده بود و نه صدای کسی که از پله‌ها بالا می‌آید. برای همین فکر کرد کمی عجیب است.
+</p>
+
+<p class="korean">
+그녀는 급하게 신발을 신다가 넘어질 뻔했어요. 바닥에는 편지가 많이 있었어요.
+</p>
+
+<p class="persian">
+او با عجله داشت کفش‌هایش را می‌پوشید که نزدیک بود زمین بخورد. روی زمین نامه‌های زیادی بود.
+</p>
+
+<p class="korean">
+오늘도 늦었고, 이번 달에 벌써 세 번째였어요. 그런데 손님까지 찾아왔어요.
+</p>
+
+<p class="persian">
+امروز هم دیر کرده بود و این سومین بار در این ماه بود. حالا یک مهمان هم آمده بود.
+</p>
+
+<p class="korean">
+‘정말 좋은 날이네.’ 빅토리아는 속으로 생각했어요.
+</p>
+
+<p class="persian">
+«چه روز خوبی!» ویکتوریا در دلش فکر کرد.
+</p>
+
+<p class="korean">
+빅토리아는 문을 열고 웃었어요. 하지만 지금은 이야기할 시간이 없다는 표정이었어요.
+</p>
+
+<p class="persian">
+ویکتوریا در را باز کرد و لبخند زد. اما از چهره‌اش معلوم بود که الان وقت صحبت کردن ندارد.
+</p>
+
+<p class="korean">
+문 앞에는 한 남자가 서 있었어요.
+</p>
+
+<p class="persian">
+مردی جلوی در ایستاده بود.
+</p>
+
+<p class="korean">
+<strong>남자:</strong> 빅토리아 씨, 오늘 기분이 어떠세요? 좋은 하루 보내고 계세요?
+</p>
+
+<p class="persian">
+<strong>مرد:</strong> خانم ویکتوریا، امروز حالتان چطور است؟ روز خوبی دارید؟
+</p>
+
+<p class="korean">
+<strong>남자:</strong> 저는 회사의 이사님이 보내셔서 왔어요. 이사님의 인사를 전해 드리려고 왔습니다.
+</p>
+
+<p class="persian">
+<strong>مرد:</strong> من از طرف مدیر شرکت آمده‌ام. آمده‌ام سلام و احوالپرسی مدیر را به شما برسانم.
+</p>
+
+<p class="korean">
+빅토리아의 얼굴에서 웃음이 사라졌어요.
+</p>
+
+<p class="persian">
+لبخند از روی صورت ویکتوریا ناپدید شد.
+</p>
+
+<p class="korean">
+‘그런데 이 남자는 어떻게 내 이름을 알고 있지?’
+</p>
+
+<p class="persian">
+«اما این مرد چطور اسم من را می‌داند؟»
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>

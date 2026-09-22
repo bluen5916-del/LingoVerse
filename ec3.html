@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>positive books</title>
+        <link rel="stylesheet" href="dracula.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="app">
+          <div class="audio-btn">
+    <audio id="lessonAudio">
+        <source src="ec3.mp3" type="audio/mpeg">
+    </audio>
+
+    <button onclick="document.getElementById('lessonAudio').play()">
+        ▶ Listen
+    </button>
+    <button onclick="stopAudio()">⏹ Stop</button>
+</div>
+         <!-- hamburger button -->
+  <button class="hamburger" onclick="toggleMenu()">
+    ☰
+  </button>
+<div class="ch">
+    <!-- side menu -->
+  <aside class="side-menu" id="sideMenu">
+
+    <h3>Chapters</h3>
+    <a href="ec3.html">Chapter 1</a>
+    <a href="ec03.html">Chapter 2</a>
+    <a href="ec13.html">Chapter 3</a>
+    <a href="ec23.html">Chapter 4</a>
+
+     </aside>
+</div>
+<h1 class="title">positive books</h1>
+</div>
+
+  <div class="mtn-content">
+    <section id="ch1">
+<div class="paragraph">
+<h1>Chapter 1</h1>
+<p class="english">
+## Four positive books about the world
+
+### Factfulness – Hans Rosling with Ola Rosling and Anna Rosling Rönnlund
+</p>
+
+<p class="persian">
+## چهار کتاب مثبت درباره جهان
+
+### واقعیت‌نگری – هانس روسلینگ با همکاری اولا روسلینگ و آنا روسلینگ رونلوند
+</p>
+
+<p class="english">
+In Factfulness, Professor Hans Rosling, along with two collaborators, asks simple questions about the world. Questions like 'How many girls finish school?' and 'What percentage of the world's population is poor?' It turns out the majority of us get the answers to these questions completely wrong. Why does this happen? Factfulness sets out to explain why, showing that there are several instincts humans have that distort our perspective.
+</p>
+
+<p class="persian">
+در کتاب «واقعیت‌نگری»، پروفسور هانس روسلینگ به همراه دو همکارش، پرسش‌های ساده‌ای درباره جهان مطرح می‌کند. پرسش‌هایی مانند «چه تعداد از دختران تحصیلات مدرسه را به پایان می‌رسانند؟» و «چه درصدی از جمعیت جهان فقیر هستند؟» مشخص می‌شود که بیشتر ما پاسخ این پرسش‌ها را کاملاً اشتباه می‌دهیم. چرا این اتفاق می‌افتد؟ کتاب «واقعیت‌نگری» تلاش می‌کند دلیل آن را توضیح دهد و نشان می‌دهد که انسان‌ها چندین غریزه دارند که باعث می‌شود دیدگاه ما نسبت به جهان دچار تحریف شود.
+</p>
+
+<p class="english">
+For example, most people divide the world into US and THEM. In addition, we often believe that things are getting worse. And we are consuming large amounts of media that use a sales model based on making us afraid.
+</p>
+
+<p class="persian">
+برای مثال، بیشتر مردم جهان را به «ما» و «آن‌ها» تقسیم می‌کنند. علاوه بر این، ما اغلب باور داریم که اوضاع در حال بدتر شدن است. همچنین، مقدار زیادی از رسانه‌هایی را دنبال می‌کنیم که از یک مدل تجاری مبتنی بر ترساندن مردم استفاده می‌کنند.
+</p>
+
+<p class="english">
+But according to the authors, the world isn't as bad as we think. Yes, there are real concerns. But we should adopt a mindset of factfulness – only carrying opinions that are supported by strong facts. This book is not concerned with the underlying reasons for poverty or progress, or what should be done about these issues. It focuses on our instinctive biases, offering practical advice to help us see the good as well as the bad in the world.
+</p>
+
+<p class="persian">
+اما به گفته نویسندگان، جهان آن‌قدر که ما فکر می‌کنیم بد نیست. بله، مشکلات واقعی وجود دارند. اما ما باید ذهنیتی مبتنی بر واقعیت‌نگری داشته باشیم؛ یعنی فقط دیدگاه‌هایی را بپذیریم که با شواهد و حقایق قوی پشتیبانی می‌شوند. این کتاب به دلایل اساسی فقر یا پیشرفت، یا اینکه برای حل این مسائل چه کاری باید انجام شود، نمی‌پردازد. بلکه بر سوگیری‌های غریزی ما تمرکز می‌کند و توصیه‌های عملی ارائه می‌دهد تا به ما کمک کند هم جنبه‌های خوب و هم جنبه‌های بد جهان را ببینیم.
+</p>
+
+<script>
+  function toggleMenu() {
+  document.getElementById("sideMenu").classList.toggle("open");
+}
+function playAudio(){
+    document.getElementById("lessonAudio").play();
+}
+
+function stopAudio(){
+    let audio = document.getElementById("lessonAudio");
+    audio.pause();
+    audio.currentTime = 0;
+}
+ </script>
+    
+</html>
